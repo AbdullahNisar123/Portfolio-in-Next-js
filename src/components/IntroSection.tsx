@@ -8,10 +8,10 @@ const IntroSection = () => {
       <div className={styles.introContent}>
         <div className={styles.row}>
           <div className={styles.colTwelve}>
-            <h5>Hello, World.</h5>
+            <h5>Hello{","} World{"."}</h5>
             <h1>
-              I<span style={{ color: "#cc005f" }}>&apos;</span>m Abdullah
-              <span style={{ color: "#cc005f" }}>.</span>
+              I<span style={{ color: "#cc005f" }}>{"'"}</span>m Abdullah
+              <span style={{ color: "#cc005f" }}>{"."}</span>
             </h1>
 
             <h1 className={styles.typingText}></h1>
