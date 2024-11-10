@@ -1,7 +1,6 @@
 "use client"
 import React from "react";
 import Resume from "@/components/Resume";
-import Style from "@/Style/page.module.css";
 import Portfolio from "@/components/Portfolio";
 import Navbar from "@/components/Navbar";
 import IntroSection from "@/components/IntroSection";

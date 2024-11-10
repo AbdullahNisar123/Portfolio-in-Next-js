@@ -10,7 +10,7 @@ const IntroSection = () => {
           <div className={styles.colTwelve}>
             <h5>Hello, World.</h5>
             <h1>
-              I<span style={{ color: "#cc005f" }}>'</span>m Abdullah
+              I<span style={{ color: "#cc005f" }}>&apos;</span>m Abdullah
               <span style={{ color: "#cc005f" }}>.</span>
             </h1>
 
