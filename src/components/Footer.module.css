@@ -1,0 +1,318 @@
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../app/fonts/icomoon.eot?jo2z5t');
+    src: url('../app/fonts/icomoon.eot?jo2z5t#iefix') format('embedded-opentype'),
+        url('../app/fonts/icomoon.ttf?jo2z5t') format('truetype'),
+        url('../app/fonts/icomoon.woff?jo2z5t') format('woff'),
+        url('../app/fonts/icomoon.svg?jo2z5t#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.iconphone,
+.iconmail,
+.iconpin {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.iconphone:before {
+    content: "\e993";
+}
+
+.iconpin:before {
+    content: "\e995";
+}
+
+.iconmail:before {
+    content: "\e96f";
+}
+
+.footer h5 {
+    font-size: 1.4rem;
+    line-height: 1.714;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+}
+
+
+/* General styling for the footer */
+.footer {
+    padding-bottom: 2rem;
+    font-size: 1.4rem;
+    font-family: "poppins-regular", sans-serif;
+    overflow: hidden;
+    /* This will contain the floated elements */
+}
+
+.footer .row {
+    max-width: 900px;
+}
+
+.row {
+    width: 94%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+.row .row {
+    width: auto;
+    max-width: none;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+/* Contact Info*/
+.contactinfo {
+    margin: 4.8rem auto 0;
+    font-family: "poppins-regular", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contactinfo .collapse {
+    padding: 0;
+}
+
+.contactinfo .icon {
+    margin-bottom: 2.1rem;
+}
+
+.contactinfo .icon i {
+    font-size: 4.2rem;
+    color: #FFFFFF;
+}
+
+.contactinfo h5 {
+    color: #FF0077;
+}
+
+.colfour {
+    float: left;
+    width: 33.33333%;
+
+}
+
+/* Contact Info*/
+
+
+.footer a:hover,
+.footer a:focus {
+    color: #ffffff;
+}
+.footer .social a:hover{
+    color: #cc005f;
+}
+
+.footer .social {
+    text-align: right;
+    margin-top: 28px;
+}
+
+.footer .footersocial {
+    display: inline-block;
+    font-size: 2.1rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -.3rem;
+    padding-right: 40px;
+}
+
+.footer .footersocial li {
+    display: inline-block;
+    margin: 0 12px;
+    padding: 0;
+}
+
+.footer .footersocial li a {
+    color: #FFFFFF;
+}
+
+.footer .copyright span {
+    display: inline-block;
+}
+.copyright a{
+    color: #cc005f;
+}
+.copyright a:hover{
+    color: #FFFFFF;
+}
+
+.footer .copyright span::after {
+    content: "|";
+    display: inline-block;
+    padding: 0 1rem 0 1.2rem;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.footer .copyright span:last-child::after {
+    display: none;
+}
+
+/* Fixes for floated columns */
+.colsix {
+    width: 45%;
+    float: left;
+    padding: 0 20px;
+}
+
+.colsix:last-child {
+    margin-right: 0;
+}
+
+.pullright {
+    float: right;
+}
+
+/* Clearfix for the .footer container */
+.footer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Go to Top button styling */
+.gotop {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 600;
+    display: none;
+}
+
+.gotop.show {
+    display: block !important;
+}
+
+.gotop a {
+    text-decoration: none;
+    border: none;
+    display: block;
+    height: 6.6rem;
+    width: 6rem;
+    line-height: 6.6rem;
+    text-align: center;
+    background: #cc005f;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.gotop a i {
+    font-size: 1.6rem;
+    line-height: inherit;
+}
+
+.gotop a:hover {
+    background: #000000;
+}
+
+/* Additional styling */
+.email {
+    color: #6E6E6E;
+}
+
+.email:hover {
+    color: white;
+}
+
+.seemoredev {
+    padding-top: 25px;
+}
+
+.profileemail {
+    color: #6E6E6E;
+}
+
+.profileemail:hover {
+    color: #292828;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+    .colfour{
+        margin: 12px 0;
+    }
+
+    .tabfull {
+        width: 100% !important;
+    }
+
+    .footersocial {
+        padding-right: 0px !important;
+    }
+
+    .footer .social {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .footer .copyright span {
+        display: block;
+    }
+
+    .footer .copyright span::after {
+        display: none;
+    }
+
+    .colsix {
+        width: 95% !important;
+        float: none !important;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .pullright {
+        float: none !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .colsix {
+        padding: 0 18px;
+    }
+}
+
+/* Additional Responsive Fix for smaller screens */
+@media screen and (max-width: 600px) {
+    .colsix {
+        width: 90% !important;
+        float: none !important;
+        clear: both !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .colsix {
+        width: 85% !important;
+        float: none !important;
+        clear: both !important;
+    }
+}
+

@@ -1,0 +1,80 @@
+/* globals.css */
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+/* Global Styles */
+
+
+
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  line-height: inherit;
+  background: transparent;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  line-height: 1.6;
+}
+
+body {
+  background: #151515;
+  font-family: "lora-regular", serif;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  color: #6e6e6e;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  color: #4cb1d4;
+  font-size: 3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h01,
+.h02,
+.h03,
+.h04,
+.h05,
+.h06 {
+  font-family: "poppins-semibold", sans-serif;
+  color: #313131;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 2.1rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid #4cb1d4;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #081b29;
+}
+

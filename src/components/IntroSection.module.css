@@ -1,0 +1,181 @@
+.intro {
+    background: #151515 url('../../public/images/bgg.jpg') no-repeat center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: 720px;
+    display: table;
+    position: relative;
+    text-align: center;
+}
+
+.introOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111111;
+    opacity: 0.75;
+}
+
+.introContent {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    transform: translateY(-2.1rem);
+}
+
+.introContent h1 {
+    color: #ffffff;
+    font-family: 'poppins-medium', sans-serif;
+    font-size: 8.4rem;
+    line-height: 1.071;
+    max-width: 900px;
+    margin: 0 auto 0.6rem auto;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.introContent h5 {
+    color: #cc005f;
+    font-family: 'poppins-bold', sans-serif;
+    font-size: 2.3rem;
+    line-height: 1.565;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    display: inline-block;
+    font-family: "poppins-bold", sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    height: 5.4rem;
+    line-height: 5.4rem;
+    padding: 0 3rem;
+    margin: 0 .3rem 1.2rem 0;
+    background: #d8d8d8;
+    color: #313131;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.button {
+    color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.3);
+    height: 6rem !important;
+    line-height: 5.4rem !important;
+    padding: 0 3.5rem 0 3rem;
+    margin-top: 0.6rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+
+.button.stroke {
+    background: transparent !important;
+    border: 3px solid #313131;
+    line-height: 4.8rem;
+}
+
+.introContent .button::after {
+    display: inline-block;
+    content: "\f107";
+    font-family: fontAwesome;
+    font-size: 1.6rem;
+    line-height: inherit;
+    text-align: center;
+    position: relative;
+    left: 1.2rem;
+}
+
+.button:hover,
+.button:focus {
+    border-color: #cc005f;
+}
+
+.introSocial {
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 7.2rem;
+    font-size: 3.3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.introSocial li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.introSocial li a {
+    color: #ffffff;
+}
+
+.introSocial li a:hover,
+.introSocial li a:focus {
+    color: #cc005f;
+}
+
+.socialicon {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.socialicon:hover {
+    color: #cc005f;
+    /* Changes color on hover */
+}
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 1024px) {
+    .introContent h1 {
+        font-size: 7.6rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .intro {
+        min-height: 660px;
+    }
+
+    .introContent h1 {
+        font-size: 5.2rem;
+    }
+
+    .introContent h5 {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .intro {
+        min-height: 600px;
+    }
+
+    .introContent h1 {
+        font-size: 4.6rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .introContent h5 {
+        font-size: 1.5rem;
+        margin-bottom: 0.3rem;
+        letter-spacing: 0.2rem;
+    }
+}
