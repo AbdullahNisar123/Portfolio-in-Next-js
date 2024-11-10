@@ -15,7 +15,7 @@ const IntroSection = () => {
             </h1>
 
             <h1 className={styles.typingText}></h1>
-            <script src="./typing-text/dist/script.js"></script>
+            {/* <script src="./typing-text/dist/script.js"></script> */}
 
             <a
               className={`${styles.button} ${styles.smoothscroll} ${styles.stroke}`}
