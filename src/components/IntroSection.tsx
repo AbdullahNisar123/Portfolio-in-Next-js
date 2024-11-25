@@ -19,7 +19,7 @@ const IntroSection = () => {
 
             <a
               className={`${styles.button} ${styles.smoothscroll} ${styles.stroke}`}
-              href="#about"
+              href="#resume"
               title=""
             >
               More About Me
@@ -31,7 +31,7 @@ const IntroSection = () => {
       <ul className={styles.introSocial}>
         <li>
           <a
-            href="./coming-soon/Iinkedin/index.html"
+            href="https://github.com/AbdullahNisar123"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -58,7 +58,7 @@ const IntroSection = () => {
         </li>
         <li>
           <a
-            href="./coming-soon/Youtube/index.html"
+            href="https://github.com/AbdullahNisar123"
             target="_blank"
             rel="noopener noreferrer"
           >

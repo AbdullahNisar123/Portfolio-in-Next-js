@@ -55,7 +55,7 @@ export default function Footer() {
         >
           <ul className={Style.footersocial}>
             <li>
-              <a href="./coming-soon/Iinkedin/index.html" target="_blank">
+              <a href="https://github.com/AbdullahNisar123" target="_blank">
                 <i className={`fab fa-linkedin ${Style.socialicon}`}></i>
               </a>
             </li>
@@ -73,7 +73,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="./coming-soon/Youtube/index.html" target="_blank">
+              <a href="https://github.com/AbdullahNisar123" target="_blank">
                 <i className={`fab fa-youtube ${Style.socialicon}`}></i>
               </a>
             </li>
@@ -85,7 +85,7 @@ export default function Footer() {
             <span>© Copyright 2021 </span>
             <span>
               Design by &nbsp;
-              <a href="https://www.linkedin.com/in/ali-solanki-2a1227192/">
+              <a href="https://github.com/AbdullahNisar123">
                 Abdullah
               </a>
             </span>

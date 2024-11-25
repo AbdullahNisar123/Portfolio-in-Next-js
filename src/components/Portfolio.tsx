@@ -23,7 +23,7 @@ export default function Portfolio (){
                   features an interactive interface with Inquirer.
                   <a
                     target="_blank"
-                    href="https://github.com/Tayyabkhalid993/PIAIC56/tree/main/NodeProjects/BMI"
+                    href="https://github.com/AbdullahNisar123"
                     rel="noopener noreferrer"
                   >
                     Read More
@@ -45,7 +45,7 @@ export default function Portfolio (){
                   <a
                     className="text-blue-500 hover:underline ml-2"
                     target="_blank"
-                    href="https://github.com/Tayyabkhalid993/PIAIC56/tree/main/NodeProjects/Other_Projects/Rock_Paper_sessior"
+                    href="https://github.com/AbdullahNisar123"
                     rel="noopener noreferrer"
                   >
                     Read More
@@ -67,7 +67,7 @@ export default function Portfolio (){
                   and can try again.
                   <a
                     target="_blank"
-                    href="https://github.com/Tayyabkhalid993/PIAIC56/tree/main/NodeProjects/Project01_number_guessing_game"
+                    href="https://github.com/AbdullahNisar123"
                     rel="noopener noreferrer"
                   >
                     Read More
@@ -93,7 +93,7 @@ export default function Portfolio (){
                   <a
                     className="text-blue-500 hover:underline ml-2"
                     target="_blank"
-                    href="https://github.com/Tayyabkhalid993/PIAIC56/tree/main/NodeProjects/Project02_ATM"
+                    href="https://github.com/AbdullahNisar123"
                     rel="noopener noreferrer"
                   >
                     Read More
@@ -114,7 +114,7 @@ export default function Portfolio (){
                   <a
                     className="text-blue-500 hover:underline ml-2"
                     target="_blank"
-                    href="https://github.com/Tayyabkhalid993/PIAIC56/tree/main/NodeProjects/Project03_toDoList"
+                    href="https://github.com/AbdullahNisar123"
                     rel="noopener noreferrer"
                   >
                     Read More
@@ -135,7 +135,7 @@ export default function Portfolio (){
                   <a
                     className="text-blue-500 hover:underline ml-2"
                     target="_blank"
-                    href="https://github.com/Tayyabkhalid993/PIAIC56/tree/main/NodeProjects/Other_Projects/Rock_Paper_sessior"
+                    href="https://github.com/AbdullahNisar123"
                     rel="noopener noreferrer"
                   >
                     Read More
